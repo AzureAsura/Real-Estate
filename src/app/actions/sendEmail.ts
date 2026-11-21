@@ -15,7 +15,7 @@ export async function sendEmail(formData: {
 
     const { data, error } = await resend.emails.send({
       from: "Acme <onboarding@resend.dev>",
-      to: "putu.gpi@gmail.com",
+      to: "info@pt-gpi.com",
       subject: "New Property Inquiry",
       html: `
         <h1>New Contact Form Submission</h1>
